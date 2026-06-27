@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+  --font-serif: "Montserrat", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom Color Palette (Warm Traditional Angkringan) */
+  --color-wood-dark: #3E2723;
+  --color-wood-medium: #6F4E37;
+  --color-wood-light: #8D6E63;
+  --color-cream-bg: #FFF8E7;
+  --color-cream-light: #FFFDFA;
+  --color-leaf-green: #4CAF50;
+  --color-warm-orange: #FF9800;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8E7;
+}
+::-webkit-scrollbar-thumb {
+  background: #6F4E37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3E2723;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-panel-dark {
+  background: rgba(62, 39, 35, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+

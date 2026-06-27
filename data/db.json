@@ -1,0 +1,897 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Budi Santoso",
+      "email": "budi@gmail.com",
+      "phone": "081234567890",
+      "role": "CUSTOMER",
+      "password": "123",
+      "totalTransactions": 122500,
+      "createdAt": "2026-06-01T10:00:00Z"
+    },
+    {
+      "id": "u2",
+      "name": "Siti Aminah",
+      "email": "siti@gmail.com",
+      "phone": "089876543210",
+      "role": "CUSTOMER",
+      "password": "123",
+      "totalTransactions": 56000,
+      "createdAt": "2026-06-10T11:30:00Z"
+    },
+    {
+      "id": "u3",
+      "name": "Admin Angkringan",
+      "email": "admin@angkringan.com",
+      "phone": "081122334455",
+      "role": "ADMIN",
+      "password": "admin",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "u-1782573201907",
+      "name": "Andy",
+      "email": "andy@gmail.com",
+      "phone": "085218363280",
+      "role": "CUSTOMER",
+      "password": "212",
+      "totalTransactions": 13500,
+      "createdAt": "2026-06-27T15:13:21.907Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat1",
+      "name": "Nasi",
+      "slug": "nasi",
+      "description": "Nasi bungkus porsi pas khas angkringan",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "cat2",
+      "name": "Sate",
+      "slug": "sate",
+      "description": "Sate tusukan lezat pelengkap nasi",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "cat3",
+      "name": "Gorengan",
+      "slug": "gorengan",
+      "description": "Gorengan garing hangat nikmat",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "cat4",
+      "name": "Wedang",
+      "slug": "wedang",
+      "description": "Minuman tradisional hangat berkhasiat",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "cat5",
+      "name": "Kopi & Teh",
+      "slug": "kopi-teh",
+      "description": "Seduhan kopi dan teh berkualitas tinggi",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "cat6",
+      "name": "Cemilan",
+      "slug": "cemilan",
+      "description": "Makanan ringan pendamping ngobrol santai",
+      "createdAt": "2026-06-01T00:00:00Z"
+    }
+  ],
+  "menus": [
+    {
+      "id": "m1",
+      "name": "Nasi Kucing Sambal Teri",
+      "description": "Nasi bungkus daun pisang dengan porsi mini dilengkapi sambal teri pedas manis khas Jogja yang otentik.",
+      "price": 4000,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 54,
+      "rating": 4.9,
+      "category": "nasi",
+      "status": "Tersedia",
+      "isBestSeller": true,
+      "composition": "Nasi putih, teri jengki, sambal pedas manis khas Jawa, daun pisang",
+      "createdAt": "2026-06-01T01:00:00Z"
+    },
+    {
+      "id": "m2",
+      "name": "Nasi Kucing Oseng Tempe",
+      "description": "Nasi bungkus porsi pas dengan isian oseng tempe gurih pedas manis yang lezat.",
+      "price": 4000,
+      "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 42,
+      "rating": 4.7,
+      "category": "nasi",
+      "status": "Tersedia",
+      "isBestSeller": false,
+      "composition": "Nasi putih, tempe bumbu oseng pedas, cabai hijau, bawang merah, bawang putih",
+      "createdAt": "2026-06-01T01:05:00Z"
+    },
+    {
+      "id": "m3",
+      "name": "Sate Telur Puyuh Bacem",
+      "description": "Sate telur puyuh yang direbus dengan bumbu bacem manis gurih meresap sempurna hingga ke dalam.",
+      "price": 3500,
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 34,
+      "rating": 4.9,
+      "category": "sate",
+      "status": "Tersedia",
+      "isBestSeller": true,
+      "composition": "Telur puyuh segar, gula merah Jawa, ketumbar, bawang putih, kecap manis",
+      "createdAt": "2026-06-01T01:10:00Z"
+    },
+    {
+      "id": "m4",
+      "name": "Sate Kulit Ayam Bakar",
+      "description": "Sate kulit ayam renyah yang dibumbui bumbu kuning lalu dibakar dengan olesan kecap manis yang smoky.",
+      "price": 3000,
+      "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 33,
+      "rating": 4.8,
+      "category": "sate",
+      "status": "Tersedia",
+      "isBestSeller": true,
+      "composition": "Kulit ayam premium, bumbu kunyit gurih, kecap manis bumbu bakar",
+      "createdAt": "2026-06-01T01:15:00Z"
+    },
+    {
+      "id": "m5",
+      "name": "Sate Usus Bumbu Kuning",
+      "description": "Sate usus ayam yang kenyal bumbu kuning tradisional dengan cita rasa gurih asin yang khas.",
+      "price": 2500,
+      "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 45,
+      "rating": 4.6,
+      "category": "sate",
+      "status": "Tersedia",
+      "isBestSeller": false,
+      "composition": "Usus ayam bersih, daun jeruk, serai, kunyit, ketumbar, bawang",
+      "createdAt": "2026-06-01T01:20:00Z"
+    },
+    {
+      "id": "m6",
+      "name": "Tempe Mendoan Hangat",
+      "description": "Tempe tipis lebar berbalut tepung bumbu krispi setengah matang khas Banyumas, disajikan hangat dengan cabai rawit.",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 69,
+      "rating": 4.9,
+      "category": "gorengan",
+      "status": "Tersedia",
+      "isBestSeller": true,
+      "composition": "Tempe kedelai tipis, tepung beras, daun bawang, ketumbar, kunyit, bumbu rempah",
+      "createdAt": "2026-06-01T01:25:00Z"
+    },
+    {
+      "id": "m7",
+      "name": "Bakwan Sayur Garing",
+      "description": "Gorengan sayur kol, wortel, dan daun bawang dibalut tepung bumbu gurih yang digoreng garing renyah.",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 40,
+      "rating": 4.5,
+      "category": "gorengan",
+      "status": "Tersedia",
+      "isBestSeller": false,
+      "composition": "Kol segar, wortel manis, daun bawang, tepung terigu bumbu gurih",
+      "createdAt": "2026-06-01T01:30:00Z"
+    },
+    {
+      "id": "m8",
+      "name": "Wedang Uwuh Kraton",
+      "description": "Minuman seduh tradisional khas Imogiri Bantul yang berisi aneka dedaunan herbal berkhasiat tinggi dan gula batu manis alami.",
+      "price": 6000,
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 25,
+      "rating": 4.9,
+      "category": "wedang",
+      "status": "Tersedia",
+      "isBestSeller": true,
+      "composition": "Kayu secang merah, daun cengkeh, daun pala, daun kayu manis, jahe bakar emprit, gula batu",
+      "createdAt": "2026-06-01T01:35:00Z"
+    },
+    {
+      "id": "m9",
+      "name": "Wedang Jahe Susu Geprek",
+      "description": "Jahe emprit bakar yang digeprek diseduh air panas berpadu susu kental manis, sangat menghangatkan tubuh.",
+      "price": 5000,
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 30,
+      "rating": 4.8,
+      "category": "wedang",
+      "status": "Tersedia",
+      "isBestSeller": false,
+      "composition": "Jahe emprit bakar, susu kental manis premium, air mendidih",
+      "createdAt": "2026-06-01T01:40:00Z"
+    },
+    {
+      "id": "m10",
+      "name": "Kopi Jos Arang Membara",
+      "description": "Kopi hitam manis khas Jogja yang disajikan unik dengan mencelupkan arang kayu membara ke dalam gelas.",
+      "price": 6000,
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 20,
+      "rating": 4.9,
+      "category": "kopi-teh",
+      "status": "Tersedia",
+      "isBestSeller": true,
+      "composition": "Bubuk kopi robusta Jawa, gula pasir manis, arang kayu menyala yang steril",
+      "createdAt": "2026-06-01T01:45:00Z"
+    },
+    {
+      "id": "m11",
+      "name": "Teh Tarik Manis Gelas Besar",
+      "description": "Seduhan teh wangi pekat yang ditarik berpadu susu kental manis menghasilkan buih melimpah yang lembut.",
+      "price": 5000,
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+      "stock": 35,
+      "rating": 4.7,
+      "category": "kopi-teh",
+      "status": "Tersedia",
+      "isBestSeller": false,
+      "composition": "Teh hitam wangi Jawa, susu evaporasi, susu kental manis",
+      "createdAt": "2026-06-01T01:50:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "INV-20260627-001",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "userPhone": "081234567890",
+      "address": "Meja No. 5",
+      "deliveryMethod": "Makan di Tempat",
+      "paymentMethod": "QRIS",
+      "items": [
+        {
+          "menuId": "m1",
+          "name": "Nasi Kucing Sambal Teri",
+          "price": 4000,
+          "quantity": 3,
+          "notes": "Sambal teri pedas"
+        },
+        {
+          "menuId": "m3",
+          "name": "Sate Telur Puyuh Bacem",
+          "price": 3500,
+          "quantity": 2
+        },
+        {
+          "menuId": "m8",
+          "name": "Wedang Uwuh Kraton",
+          "price": 6000,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 25000,
+      "status": "Selesai",
+      "createdAt": "2026-06-27T08:00:00Z",
+      "updatedAt": "2026-06-27T08:15:00Z"
+    },
+    {
+      "id": "INV-20260627-002",
+      "userId": "u2",
+      "userName": "Siti Aminah",
+      "userPhone": "089876543210",
+      "address": "Jl. Raya Serang No. 24, Balaraja",
+      "deliveryMethod": "Delivery",
+      "paymentMethod": "E-Wallet",
+      "items": [
+        {
+          "menuId": "m2",
+          "name": "Nasi Kucing Oseng Tempe",
+          "price": 4000,
+          "quantity": 2
+        },
+        {
+          "menuId": "m4",
+          "name": "Sate Kulit Ayam Bakar",
+          "price": 3000,
+          "quantity": 3
+        },
+        {
+          "menuId": "m6",
+          "name": "Tempe Mendoan Hangat",
+          "price": 1500,
+          "quantity": 4,
+          "notes": "Mendoan garing ya"
+        },
+        {
+          "menuId": "m10",
+          "name": "Kopi Jos Arang Membara",
+          "price": 6000,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 29000,
+      "status": "Siap Diambil",
+      "createdAt": "2026-06-27T07:15:00Z",
+      "updatedAt": "2026-06-27T15:59:51.814Z"
+    },
+    {
+      "id": "INV-20260627-003",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "userPhone": "081234567890",
+      "address": "Bungkus bawa pulang",
+      "deliveryMethod": "Bungkus",
+      "paymentMethod": "Cash",
+      "items": [
+        {
+          "menuId": "m1",
+          "name": "Nasi Kucing Sambal Teri",
+          "price": 4000,
+          "quantity": 5
+        },
+        {
+          "menuId": "m6",
+          "name": "Tempe Mendoan Hangat",
+          "price": 1500,
+          "quantity": 5
+        }
+      ],
+      "totalPrice": 27500,
+      "status": "Selesai",
+      "createdAt": "2026-06-27T07:40:00Z",
+      "updatedAt": "2026-06-27T16:06:26.934Z"
+    },
+    {
+      "id": "INV-20260627-515",
+      "userId": "u-1782573201907",
+      "userName": "Andy",
+      "userPhone": "085218363280",
+      "address": "Bungkus Bawa Pulang",
+      "deliveryMethod": "Bungkus",
+      "paymentMethod": "QRIS",
+      "items": [
+        {
+          "menuId": "m1",
+          "name": "Nasi Kucing Sambal Teri",
+          "price": 4000,
+          "quantity": 1,
+          "notes": ""
+        },
+        {
+          "menuId": "m3",
+          "name": "Sate Telur Puyuh Bacem",
+          "price": 3500,
+          "quantity": 1,
+          "notes": ""
+        },
+        {
+          "menuId": "m10",
+          "name": "Kopi Jos Arang Membara",
+          "price": 6000,
+          "quantity": 1,
+          "notes": ""
+        }
+      ],
+      "totalPrice": 13500,
+      "status": "Selesai",
+      "createdAt": "2026-06-27T15:14:54.489Z",
+      "updatedAt": "2026-06-27T16:06:14.387Z"
+    },
+    {
+      "id": "INV-20260627-261",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "userPhone": "081234567890",
+      "address": "Meja/Tempat: Ditentukan Kasir",
+      "deliveryMethod": "Makan di Tempat",
+      "paymentMethod": "Cash",
+      "items": [
+        {
+          "menuId": "m2",
+          "name": "Nasi Kucing Oseng Tempe",
+          "price": 4000,
+          "quantity": 1,
+          "notes": ""
+        }
+      ],
+      "totalPrice": 4000,
+      "status": "Selesai",
+      "createdAt": "2026-06-27T15:52:19.701Z",
+      "updatedAt": "2026-06-27T16:54:16.523Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "title": "Cita Rasa Angkringan Tradisional",
+      "subtitle": "Nikmati kehangatan obrolan malam dengan sajian nasi kucing, sate bacem, dan wedang jahe seduh yang otentik.",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&auto=format&fit=crop&q=80",
+      "isActive": true
+    },
+    {
+      "id": "b2",
+      "title": "Nongkrong Asyik Kantong Aman",
+      "subtitle": "Kelezatan berkelas dengan harga terjangkau merakyat. Tempat berkumpul ternyaman di sudut kota.",
+      "image": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=1200&auto=format&fit=crop&q=80",
+      "isActive": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Rian Adi",
+      "role": "Mahasiswa",
+      "content": "Tempat ternyaman buat nugas malam hari. Wedang uwuhnya kerasa banget rempah-rempahnya, nasi teri sambalnya juara dengan harga cuma 4rb per bungkus!",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": "t2",
+      "name": "Retno Wulan",
+      "role": "Karyawan Swasta",
+      "content": "Angkringan bersih, higienis, dan pelayanannya cepat luar biasa. Sate telur puyuhnya bener-bener manis meresap. QRIS-nya lancar, gampang pesan online dari meja.",
+      "rating": 5,
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=60",
+      "isActive": true
+    },
+    {
+      "id": "t3",
+      "name": "Mas Danang",
+      "role": "Kreator Konten",
+      "content": "Sensation dari Kopi Jos di sini luar biasa gila! Bau smoky arang membara menyatu sama kopi mantap robusta. Highly recommended buat nongkrong sama temen.",
+      "rating": 4,
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60",
+      "isActive": true
+    }
+  ],
+  "galleries": [
+    {
+      "id": "g1",
+      "title": "Suasana Malam Angkringan",
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "g2",
+      "title": "Aneka Sate dan Gorengan Hangat",
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "g3",
+      "title": "Pembuatan Kopi Jos Tradisional",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-01T00:00:00Z"
+    },
+    {
+      "id": "g4",
+      "title": "Pelanggan Asyik Bercengkerama",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=500&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-01T00:00:00Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "p1",
+      "code": "BALARAJAKENYANG",
+      "name": "Diskon Tradisi Kenyang",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minTransaction": 20000,
+      "description": "Potongan 10% dengan minimal pembelian Rp 20.000 untuk menikmati seluruh varian sate dan wedang.",
+      "isActive": true,
+      "expiryDate": "2026-12-31T23:59:59Z"
+    },
+    {
+      "id": "p2",
+      "code": "MENDOANMANIA",
+      "name": "Diskon Gorengan Nikmat",
+      "discountType": "fixed",
+      "discountValue": 5000,
+      "minTransaction": 25000,
+      "description": "Potongan langsung Rp 5.000 dengan minimal belanja Rp 25.000. Puas makan gorengan hangat!",
+      "isActive": true,
+      "expiryDate": "2026-12-31T23:59:59Z"
+    }
+  ],
+  "settings": {
+    "businessName": "Angkringan Tanjakan",
+    "logo": "https://images.unsplash.com/photo-1544025162-d76694265947?w=100&auto=format&fit=crop&q=60",
+    "favicon": "https://images.unsplash.com/photo-1544025162-d76694265947?w=32&auto=format&fit=crop&q=60",
+    "address": "Jl. Raya Tobat Kp.Peuteuy RT.05/01, Tobat, Kec. Balaraja, Kab. Tangerang, Banten Indonesia.",
+    "whatsapp": "6285136218559",
+    "email": "angkringantanjakan@gmail.com",
+    "instagram": "angkringan_songo",
+    "facebook": "angkringan.songo",
+    "openingHours": "17:00 - 02:00 WIB (Buka Setiap Hari)",
+    "gmapsEmbedUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d204.32787203752247!2d106.44009746355786!3d-6.200429142006831!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sid!4v1782574979744!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>"
+  },
+  "activityLogs": [
+    {
+      "id": "log-1782581072724-m092",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T17:24:32.724Z"
+    },
+    {
+      "id": "log-1782580943774-bin2",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T17:22:23.774Z"
+    },
+    {
+      "id": "log-1782580900287-peb8",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T17:21:40.287Z"
+    },
+    {
+      "id": "log-1782579960253-wcy9",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_SETTINGS",
+      "details": "Memperbarui konfigurasi sistem angkringan",
+      "timestamp": "2026-06-27T17:06:00.253Z"
+    },
+    {
+      "id": "log-1782579960166-vlwa",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_SETTINGS",
+      "details": "Memperbarui konfigurasi sistem angkringan",
+      "timestamp": "2026-06-27T17:06:00.166Z"
+    },
+    {
+      "id": "log-1782579933923-1epk",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T17:05:33.923Z"
+    },
+    {
+      "id": "log-1782579454946-u76x",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T16:57:34.946Z"
+    },
+    {
+      "id": "log-1782579307330-ec7h",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T16:55:07.330Z"
+    },
+    {
+      "id": "log-1782579256523-h9ui",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Siap Diambil\" menjadi \"Selesai\"",
+      "timestamp": "2026-06-27T16:54:16.523Z"
+    },
+    {
+      "id": "log-1782578960899-zzx7",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T16:49:20.899Z"
+    },
+    {
+      "id": "log-1782578892768-gaj9",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T16:48:12.768Z"
+    },
+    {
+      "id": "log-1782578145893-riyi",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T16:35:45.894Z"
+    },
+    {
+      "id": "log-1782577604006-xkrb",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T16:26:44.006Z"
+    },
+    {
+      "id": "log-1782577316716-jqub",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_SETTINGS",
+      "details": "Memperbarui konfigurasi sistem angkringan",
+      "timestamp": "2026-06-27T16:21:56.716Z"
+    },
+    {
+      "id": "log-1782577265654-fsay",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_SETTINGS",
+      "details": "Memperbarui konfigurasi sistem angkringan",
+      "timestamp": "2026-06-27T16:21:05.654Z"
+    },
+    {
+      "id": "log-1782576386934-p3lr",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Siap Diambil\" menjadi \"Selesai\"",
+      "timestamp": "2026-06-27T16:06:26.934Z"
+    },
+    {
+      "id": "log-1782576383290-u9gk",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Sedang Dimasak\" menjadi \"Siap Diambil\"",
+      "timestamp": "2026-06-27T16:06:23.290Z"
+    },
+    {
+      "id": "log-1782576380709-8xxw",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Sedang Diproses\" menjadi \"Sedang Dimasak\"",
+      "timestamp": "2026-06-27T16:06:20.709Z"
+    },
+    {
+      "id": "log-1782576377622-nd4i",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Pesanan Diterima\" menjadi \"Sedang Diproses\"",
+      "timestamp": "2026-06-27T16:06:17.623Z"
+    },
+    {
+      "id": "log-1782576374388-ovoh",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-515 dari \"Siap Diambil\" menjadi \"Selesai\"",
+      "timestamp": "2026-06-27T16:06:14.388Z"
+    },
+    {
+      "id": "log-1782576371381-7htf",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-515 dari \"Sedang Dimasak\" menjadi \"Siap Diambil\"",
+      "timestamp": "2026-06-27T16:06:11.381Z"
+    },
+    {
+      "id": "log-1782576342589-ocpj",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T16:05:42.589Z"
+    },
+    {
+      "id": "log-1782576152665-d1pr",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Siap Diambil\" menjadi \"Pesanan Diterima\"",
+      "timestamp": "2026-06-27T16:02:32.665Z"
+    },
+    {
+      "id": "log-1782576133888-bye7",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-515 dari \"Sedang Diproses\" menjadi \"Sedang Dimasak\"",
+      "timestamp": "2026-06-27T16:02:13.888Z"
+    },
+    {
+      "id": "log-1782576095065-g9jj",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Dibatalkan\" menjadi \"Siap Diambil\"",
+      "timestamp": "2026-06-27T16:01:35.065Z"
+    },
+    {
+      "id": "log-1782576092584-oqvd",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Siap Diambil\" menjadi \"Dibatalkan\"",
+      "timestamp": "2026-06-27T16:01:32.584Z"
+    },
+    {
+      "id": "log-1782576088833-2vo7",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Pesanan Diterima\" menjadi \"Siap Diambil\"",
+      "timestamp": "2026-06-27T16:01:28.833Z"
+    },
+    {
+      "id": "log-1782576085686-2sr3",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Sedang Dimasak\" menjadi \"Pesanan Diterima\"",
+      "timestamp": "2026-06-27T16:01:25.686Z"
+    },
+    {
+      "id": "log-1782575996517-n3pq",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Sedang Diproses\" menjadi \"Sedang Dimasak\"",
+      "timestamp": "2026-06-27T15:59:56.517Z"
+    },
+    {
+      "id": "log-1782575994369-xptd",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Dibatalkan\" menjadi \"Siap Diambil\"",
+      "timestamp": "2026-06-27T15:59:54.369Z"
+    },
+    {
+      "id": "log-1782575991814-eawu",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-002 dari \"Pesanan Diterima\" menjadi \"Siap Diambil\"",
+      "timestamp": "2026-06-27T15:59:51.814Z"
+    },
+    {
+      "id": "log-1782575979099-trni",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-002 dari \"Dibatalkan\" menjadi \"Pesanan Diterima\"",
+      "timestamp": "2026-06-27T15:59:39.099Z"
+    },
+    {
+      "id": "log-1782575916207-y7sk",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-515 dari \"Pesanan Diterima\" menjadi \"Sedang Diproses\"",
+      "timestamp": "2026-06-27T15:58:36.207Z"
+    },
+    {
+      "id": "log-1782575601467-v2fa",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-261 dari \"Pesanan Diterima\" menjadi \"Sedang Diproses\"",
+      "timestamp": "2026-06-27T15:53:21.467Z"
+    },
+    {
+      "id": "log-1782575567099-08jw",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T15:52:47.099Z"
+    },
+    {
+      "id": "log-1782575539720-5sjr",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "PLACE_ORDER",
+      "details": "Membuat pesanan baru: INV-20260627-261 sebesar Rp 4,000",
+      "timestamp": "2026-06-27T15:52:19.720Z"
+    },
+    {
+      "id": "log-1782575501287-cxn9",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T15:51:41.287Z"
+    },
+    {
+      "id": "log-1782575500228-g4s8",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T15:51:40.228Z"
+    },
+    {
+      "id": "log-1782575472044-ug4p",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai CUSTOMER",
+      "timestamp": "2026-06-27T15:51:12.044Z"
+    },
+    {
+      "id": "log-1782575173017-wpz9",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_SETTINGS",
+      "details": "Memperbarui konfigurasi sistem angkringan",
+      "timestamp": "2026-06-27T15:46:13.018Z"
+    },
+    {
+      "id": "log-1782574840727-92vi",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-002 dari \"Sedang Diproses\" menjadi \"Dibatalkan\"",
+      "timestamp": "2026-06-27T15:40:40.727Z"
+    },
+    {
+      "id": "log-1782574834634-wu2d",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Dibatalkan\" menjadi \"Dibatalkan\"",
+      "timestamp": "2026-06-27T15:40:34.634Z"
+    },
+    {
+      "id": "log-1782574833290-jc2n",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "UPDATE_ORDER_STATUS",
+      "details": "Mengubah status pesanan INV-20260627-003 dari \"Pesanan Diterima\" menjadi \"Dibatalkan\"",
+      "timestamp": "2026-06-27T15:40:33.290Z"
+    },
+    {
+      "id": "log-1782574477392-lkso",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Login berhasil sebagai ADMIN",
+      "timestamp": "2026-06-27T15:34:37.392Z"
+    },
+    {
+      "id": "log-1782573294512-lfs9",
+      "userId": "u-1782573201907",
+      "userName": "Andy",
+      "action": "PLACE_ORDER",
+      "details": "Membuat pesanan baru: INV-20260627-515 sebesar Rp 13,500",
+      "timestamp": "2026-06-27T15:14:54.512Z"
+    },
+    {
+      "id": "log-1782573201908-zfot",
+      "userId": "u-1782573201907",
+      "userName": "Andy",
+      "action": "REGISTER",
+      "details": "Pendaftaran pelanggan baru: Andy",
+      "timestamp": "2026-06-27T15:13:21.908Z"
+    },
+    {
+      "id": "log1",
+      "userId": "u3",
+      "userName": "Admin Angkringan",
+      "action": "LOGIN",
+      "details": "Admin login berhasil",
+      "timestamp": "2026-06-27T07:00:00Z"
+    },
+    {
+      "id": "log2",
+      "userId": "u1",
+      "userName": "Budi Santoso",
+      "action": "BUAT_PESANAN",
+      "details": "Membuat pesanan baru INV-20260627-003",
+      "timestamp": "2026-06-27T07:40:00Z"
+    }
+  ]
+}
